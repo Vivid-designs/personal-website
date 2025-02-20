@@ -9,16 +9,16 @@ import SmoothScrollingWrapper from "@/components/smooth-scrolling-wrapper";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: { default: "JethroAu.com", template: `%s - JethroAu.com` },
+  title: { default: "LarioSpence.co.za", template: `%s - LarioSpence.co.za` },
 
   description:
     "Explore the intersection of technology and imagination as we embark on a journey to transform concepts into powerful, user-centric experiences. Let's build the future together – one line of code at a time.",
-  keywords: ["jethro", "au", "jethroau", "jethroau.com", "personal", "website"],
+  keywords: ["Lario", "Spence", "LarioSpence", "spence.co.za", "personal", "website"],
   twitter: {
     card: "summary_large_image",
   },
   openGraph: {},
-  metadataBase: new URL("https://jethroau.com"),
+  metadataBase: new URL("https://spence.co.za"),
 };
 
 export default function RootLayout({

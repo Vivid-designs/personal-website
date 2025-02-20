@@ -23,7 +23,7 @@ export function AboutMeCard({}) {
           className=""
         >
           <Image
-            src={"/profile.jpeg"}
+            src={"/Lario2.JPEG"}
             height="1000"
             width="1000"
             className="h-20 w-20 object-cover aspect-square rounded-full group-hover/card:shadow-xl"
@@ -36,7 +36,7 @@ export function AboutMeCard({}) {
           className="mt-4 text-xl font-bold text-neutral-600 dark:text-white"
         >
           <span className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
-            Jethro Au
+            Lario Spence
           </span>
         </CardItem>
         <CardItem
@@ -44,7 +44,7 @@ export function AboutMeCard({}) {
           translateZ="40"
           className="mt-2 text-xs text-muted-foreground max-w-sm line-clamp-1"
         >
-          Software Enginer
+          Software Developer | Animator
         </CardItem>
         <div className="mt-4 w-full flex items-center justify-center flex-wrap gap-2">
           <CardItem translateZ="40">
@@ -54,7 +54,7 @@ export function AboutMeCard({}) {
               className="rounded-full w-8 h-8"
               asChild
             >
-              <Link href="https://www.linkedin.com/in/galongau/">
+              <Link href="https://www.linkedin.com/in/lario-spence/">
                 <Linkedin className="h-4 w-4 text-muted-foreground" />
               </Link>
             </Button>
@@ -66,7 +66,7 @@ export function AboutMeCard({}) {
               className="rounded-full w-8 h-8"
               asChild
             >
-              <Link href="https://github.com/jethro-dev">
+              <Link href="https://github.com/vivid-designs">
                 <Github className="h-4 w-4 text-muted-foreground" />
               </Link>
             </Button>

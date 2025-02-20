@@ -16,15 +16,20 @@ type Props = {};
 const paragraphs = [
   {
     title: 'What about me?',
-    text: 'A passionate Computer Science graduate chasing his dreams. Originated in Hong Kong, currently living in the capital of the UK — London. Giving me the ability to read and write fluently in two of the most spoken languages in the world, English, and Chinese.',
+    text: 'I\'m Lario Spence – a Technical Creative, Full-Stack Developer & Motion Designer based in Cape Town, South Africa. My journey from the rugby field to the digital arena has taught me discipline, resilience, and the art of problem-solving. I blend the precision of code with the fluidity of motion design to craft experiences that captivate and drive business outcomes.',
   },
   {
     title: 'Why do I love software development so much?',
-    text: "There's nothing more satisfying than solving a problem that's been around for a while and nobody else knows how to solve. As a software developer, I constantly provide solutions for users' problems. I can be working on the occasional quick fix as well as more complex strategic solutions.",
+    text: "For me, every line of code is an opportunity to solve a problem and tell a story. Whether I’m creating dynamic web solutions or breathing life into digital animations, I thrive on transforming complex challenges into elegant, user-centered designs. It’s the thrill of innovation that keeps me coding—and always pushing the envelope.",
   },
   {
-    title: 'Then, what makes me a good software engineer?',
-    text: "Great fundamentals built up from university. I am always curious and love to stay updated to the latest technology. Also, I love challenges and I don't give up. With the advantages of bilingual, I am able to connect and collaborate with developers around the world.",
+    title:'Why I Love Animation Projects',
+    text:'Animation projects are my playground for merging creativity with technology. There’s a unique magic in transforming a blank screen into a dynamic, moving story that connects with people on an emotional level. For me, animation isn’t just about flashy visuals—it’s about solving intricate puzzles frame by frame, where every motion and transition tells a deeper narrative. Whether I\'m crafting interactive web experiences or producing high-energy motion graphics, I relish the challenge of pushing design boundaries and delivering experiences that captivate and inspire. Animation fuels my passion for innovation, turning complex ideas into engaging, immersive digital stories.\n' +
+        '\n',
+  }  ,
+  {
+    title: 'Then, what makes me a good software developer?',
+    text: "My background as a semi-pro athlete instilled a relentless drive and a never-give-up attitude that I channel into every project. With hands-on experience building platforms for startups and SMEs, I’ve honed my skills in modern web technologies and creative storytelling. This unique mix enables me to seamlessly bridge the gap between design and functionality.",
   },
 ];
 
@@ -39,7 +44,7 @@ export const About = async (props: Props) => {
           <TypographyH1 className="text-4xl sm:text-7xl lg:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
             About Me
           </TypographyH1>
-          <TypographyP className="mt-2">Lttile things about me</TypographyP>
+          <TypographyP className="mt-2">A few things about me</TypographyP>
 
           <div className="">
             {paragraphs.map((p, i) => (

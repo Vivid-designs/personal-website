@@ -8,14 +8,14 @@ export const Footer = (props: Props) => {
     <div className="bg-background py-4 px-6 w-full">
       <div className=" flex items-center justify-between">
         <span className="text-xs font-light">
-          © Jethro Au. All right reserved.
+          © Lario spence. All right reserved.
         </span>
 
         <div className="flex items-center gap-2.5">
-          <Link href={"https://github.com/jethro-dev"} target="_blank">
+          <Link href={"https://github.com/vivid-designs"} target="_blank">
             <Github className="w-4 h-4" />
           </Link>
-          <Link href={"https://www.linkedin.com/in/galongau/"} target="_blank">
+          <Link href={"https://www.linkedin.com/in/lario-sepnce/"} target="_blank">
             <Linkedin className="w-4 h-4" />
           </Link>
         </div>

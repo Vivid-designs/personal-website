@@ -30,12 +30,12 @@ const frontends = [
     logo: '/nextjs-icon-dark-background.svg',
   },
   {
-    name: 'Remix',
-    logo: '/remix-letter-glowing.svg',
-  },
-  {
     name: 'TailwindCSS',
     logo: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg',
+  },
+  {
+    name:'Angular',
+    logo:'angular.svg',
   },
   {
     name: 'HTML',
@@ -46,9 +46,13 @@ const frontends = [
     logo: '/images/icons8-css.svg',
   },
   {
-    name: 'shadcn-ui',
-    logo: '/images/shadcn-icon.png',
+    name: 'Wordpress',
+    logo: '/wordpress.svg',
   },
+  {
+    name: 'Elementor',
+    logo: 'elementor.svg',
+  }
 ];
 
 const backends = [
@@ -65,20 +69,12 @@ const backends = [
     logo: '/images/icons8-python.svg',
   },
   {
-    name: 'Django',
-    logo: '/django-icon-svgrepo-com.svg',
-  },
-  {
-    name: 'Java',
-    logo: '/icons8-java.svg',
+    name: 'Firebase',
+    logo: '/firebase.svg',
   },
   {
     name: 'REST APIs',
     logo: '/rest-api.png',
-  },
-  {
-    name: 'GraphQL',
-    logo: '/graphql-logo.svg',
   },
 ];
 const orm = [
@@ -94,16 +90,20 @@ const orm = [
 
 const databases = [
   {
-    name: 'MySQL',
-    logo: '/icons8-my-sql.svg',
-  },
-  {
     name: 'PostgreSQL',
     logo: 'https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg',
   },
   {
     name: 'MongoDB',
     logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg',
+  },
+  {
+    name: 'Vercel',
+    logo: '/vercel-icon-light.svg',
+  },
+  {
+    name: 'CI/CD',
+    logo: '/ci-cd-icon.svg',
   },
 ];
 
@@ -132,11 +132,9 @@ const baas = [
   },
 ];
 
-const devOps = [
-  {
-    name: 'CI/CD',
-    logo: '/ci-cd-icon.svg',
-  },
+const mograph
+    = [
+
   {
     name: 'Docker',
     logo: '/docker-mark-blue.svg',
@@ -149,10 +147,7 @@ const devOps = [
     name: 'Azure',
     logo: '/icons8-azure.svg',
   },
-  {
-    name: 'Vercel',
-    logo: '/vercel-icon-light.svg',
-  },
+
   {
     name: 'Netlify',
     logo: '/netlify-logo.svg',
@@ -201,27 +196,27 @@ const content = [
   {
     title: 'Front-End Development',
     description:
-      'Specializing in modern web development, expertise includes JavaScript, TypeScript, React, and Next.js for building high-performance applications. With Remix for full-stack solutions and TailwindCSS with CSS/SASS for creating sleek, responsive designs, modern and accessible user experiences are delivered.',
+      'I build engaging, responsive interfaces using JavaScript, TypeScript, React, Next.js, Angular, TailwindCSS, CSS/SASS, and WordPress with Elementor. My goal is to deliver clean, high-performance user experiences.',
   },
   {
     title: 'Back-End Development',
     description:
-      'Expertise in backend development includes building scalable systems with Node.js, Express.js, and Python. Experience with Django and Java ensures robust solutions, while REST APIs and GraphQL enable seamless data integration.',
+    'I create scalable server solutions with Node.js, Express.js, and Firebase, crafting robust REST APIs. By leveraging PostgreSQL, SQL, and MongoDB along with optimized CI/CD workflows on platforms like Vercel, I ensure secure and efficient systems.',
   },
   {
-    title: 'Databases',
+    title: 'Databases & DevOps' ,
     description:
-      'Expertise in database management includes MySQL, PostgreSQL, and MongoDB for designing and implementing scalable, efficient data solutions tailored to meet the needs of modern applications.',
+      'I efficiently manage data with PostgreSQL, SQL, and MongoDB while streamlining deployments through CI/CD workflows on platforms like Vercel.',
   },
   {
-    title: 'Dev Ops',
+    title: 'Motion & Visual Storytelling',
     description:
-      'Specializing in DevOps, expertise includes setting up CI/CD pipelines, containerizing applications with Docker, and utilizing cloud platforms like AWS and Azure. Deployments are optimized on Vercel and Netlify for efficient scaling and performance.',
+      'I bring ideas to life through motion design. Using Adobe Premiere Pro, After Effects, Photoshop, Illustrator, Animate, Blender, Three.js, and Aero, I craft dynamic visuals that tell compelling stories and elevate brands.',
   },
   {
     title: 'Development Tools & Workflow',
     description:
-      'Proficient in essential development tools and methodologies including Git for version control, Agile/Scrum for project management, Jest for testing, Webpack for bundling, and Figma for design and collaboration, ensuring efficient and streamlined development workflows.',
+      'I keep my process efficient with Git, Agile/Scrum, Figma, and package managers like npm, yarn, and pnpm—backed by the full power of Adobe Creative Cloud for a polished finish.',
   },
 ];
 
@@ -242,7 +237,7 @@ const SkillsSection = (props: Props) => {
           My skills
         </TypographyH1>
         <TypographyP className="mt-4 lg:mt-6">
-          Explore my expertise in Software Development.
+          My expertise spans modern full-stack development and innovative motion design, empowering me to transform complex ideas into immersive digital experiences.
         </TypographyP>
       </div>
 
@@ -264,8 +259,8 @@ const SkillsSection = (props: Props) => {
             onEnter={() => handleCategoryInView(2)}
           />
           <SkillCategory
-            title="Dev Ops"
-            items={devOps}
+            title="Motion & Visual Storytelling"
+            items={mograph}
             onEnter={() => handleCategoryInView(3)}
           />
           <SkillCategory

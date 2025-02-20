@@ -59,25 +59,25 @@ export const Certifications = (props: Props) => {
       <div className="relative border border-border rounded-lg py-16 px-10">
         <div className="flex flex-col md:flex-row md:items-center justify-between">
           <h2 className="text-5xl font-bold whitespace-pre-line">
-            Meta Certified <br /> Back-End Developer
+            I_Xperience <br /> Software Engineering
           </h2>
           <Image
-            src={"/meta-icon.svg"}
+            src={"/iX_Main_Logo_White.svg"}
             width={200}
             height={60}
-            alt="Meta logo"
+            alt="I_Xperience logo"
           />
         </div>
         <p className="text-muted-foreground flex items-center gap-2">
-          Issue Date: 4 June, 2024{" "}
+          Issue Date: 7 February, 2025{" "}
           <Link
             className="text-blue-900 hover:text-blue-800 underline transition duration-300"
-            href="https://coursera.org/verify/professional-cert/2D5TYDSEUGVN"
+            href="https://www.beeline.life/organization/ixperience/learn/ix-summer-2024-software-engineering-session-2-byron-e3cf7/certificate/6027/"
           >
             Click to verify
           </Link>
         </p>
-        <h3 className="mt-10 text-lg font-medium">Courses</h3>
+        <h3 className="mt-10 text-lg font-medium">What I learnt</h3>
         <ul className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-4">
           {courses.map((course, index) => (
             <li key={index}>
