@@ -37,7 +37,7 @@ export const TimelineItemCard = ({
   return (
     <motion.li
       ref={ref}
-      className="bg-gray-50 relative group/card dark:shadow-transparent dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black ms-4 border border-border rounded-lg p-6 cursor-pointer transition-shadow"
+      className="bg-gray-50 relative group/card dark:shadow-transparent dark:hover:shadow-2xl dark:hover:shadow-emerald-500 [0.1] dark:bg-black ms-4 border border-border rounded-lg p-6 cursor-pointer transition-shadow"
       style={{ opacity: scrollYProgress }}
     >
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-[23.5px] border border-white dark:border-gray-900 dark:bg-gray-700"></div>

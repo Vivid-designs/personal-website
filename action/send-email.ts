@@ -27,11 +27,11 @@ export async function send(values: z.infer<typeof formSchema>) {
 
   // Setup email data with unicode symbols
   let mailOptions = {
-    from: '"Jethro Au" <galongau@gmail.com>', // Sender address
-    to: "galongau@gmail.com", // List of receivers
-    cc: "hello@jethroau.com", // Carbon Copy
+    from: '"Lario Spence" <Lario@spencesa.co.za>', // Sender address
+    to: "lario@spencesa.co.za", // List of receivers
+    cc: "lario@spencesa.co.za", // Carbon Copy
     replyTo: email, // Sets the Reply-To email address
-    subject: "New message from jethroau.com", // Subject line
+    subject: "New message from Lario Spence", // Subject line
     text: `Message from ${name}, Email: ${email}, Message: ${message}`, // Plain text body
     html: `<b>Message from ${name}</b><p>Email: ${email}</p><p>Message: ${message}</p>`, // HTML body
   };

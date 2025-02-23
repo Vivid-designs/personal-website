@@ -22,7 +22,7 @@ interface EmailTemplateProps {
 
 export const EmailTemplate = ({ name, email, message }: EmailTemplateProps) => (
   <Tailwind config={config}>
-    <h1>New message from jethroau.com</h1>
+    <h1>New message from lario@spencesa.co.za</h1>
     <p>Name:{name}</p>
     <p>Email:{email}</p>
     <p>Message:{message}</p>

@@ -28,7 +28,6 @@ export default function Home() {
       <Experience />
       <Portfolio />
       <ConnectBanner />
-      <LatestBlogPosts />
     </main>
   );
 }

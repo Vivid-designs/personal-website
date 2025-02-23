@@ -136,21 +136,33 @@ const mograph
     = [
 
   {
-    name: 'Docker',
-    logo: '/docker-mark-blue.svg',
+    name: 'AfterEffects',
+    logo: '/ae.svg',
   },
   {
-    name: 'AWS',
-    logo: '/icons8-aws.svg',
+    name: 'Animate',
+    logo: '/an.svg',
   },
   {
-    name: 'Azure',
-    logo: '/icons8-azure.svg',
+    name: 'Illustrator',
+    logo: '/ai.svg',
   },
 
   {
-    name: 'Netlify',
-    logo: '/netlify-logo.svg',
+    name: 'PremierePro',
+    logo: '/pr.svg',
+  },
+  {
+    name: 'PhotoShop',
+    logo: '/ps.svg',
+  },
+  {
+    name: 'Dimension',
+    logo: '/dn.svg',
+  },
+  {
+    name: 'Blender',
+    logo: '/blender.svg',
   },
 ];
 
@@ -160,12 +172,12 @@ const tools = [
     logo: '/images/icons8-github.svg',
   },
   {
-    name: 'Agile/Scrum',
-    logo: '/images/icons8-agile.png',
+    name: 'JetBrains',
+    logo: '/jetbrains.svg',
   },
   {
-    name: 'Webpack',
-    logo: '/images/icons8-webpack.svg',
+    name: 'Agile/Scrum',
+    logo: '/images/icons8-agile.png',
   },
   {
     name: 'Figma',
@@ -176,12 +188,12 @@ const tools = [
     logo: '/images/icons8-npm.png',
   },
   {
-    name: 'Yarn',
-    logo: '/images/yarn-icon.svg',
+    name: 'CreativeCloud',
+    logo: '/cc.svg',
   },
   {
-    name: 'pnpm',
-    logo: '/images/pnpm-icon.svg',
+    name: 'AdobeStock',
+    logo: '/st.svg',
   },
 ];
 

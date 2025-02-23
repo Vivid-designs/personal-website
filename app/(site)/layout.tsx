@@ -9,7 +9,7 @@ import SmoothScrollingWrapper from "@/components/smooth-scrolling-wrapper";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: { default: "LarioSpence.co.za", template: `%s - LarioSpence.co.za` },
+  title: { default: "Spencesa.co.za", template: `%s - Lario Spence` },
 
   description:
     "Explore the intersection of technology and imagination as we embark on a journey to transform concepts into powerful, user-centric experiences. Let's build the future together – one line of code at a time.",

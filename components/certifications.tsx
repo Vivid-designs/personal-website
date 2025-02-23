@@ -7,88 +7,103 @@ type Props = {};
 
 const courses = [
   {
-    title: "Introduction to Back-End Development",
+    title: "Code Editor (Visual Studio Code)",
     description:
-      "Learn the fundamentals of back-end web development, including server-side programming and database integration.",
+        "Leverage Visual Studio Code for efficient code writing, debugging, and project management.",
   },
   {
-    title: "Programming in Python",
+    title: "Git & GitHub",
     description:
-      "Master the basics of Python programming, covering syntax, data structures, and core concepts.",
+        "Master the basics of Git for version control and GitHub for seamless collaboration and code management.",
   },
   {
-    title: "Version Control",
+    title: "HTML, CSS & JavaScript",
     description:
-      "Understand version control systems, with a focus on Git and GitHub for efficient collaboration and code management.",
+        "Build interactive front-end experiences by learning the fundamentals of web development with HTML, CSS, and JavaScript.",
   },
   {
-    title: "Introduction to Databases for Back-End Development",
+    title: "CSS Framework (Bootstrap)",
     description:
-      "Explore key database concepts and techniques, including SQL queries and database design principles.",
+        "Implement responsive design and consistent styling using Bootstrap to streamline front-end development.",
   },
   {
-    title: "Django Web Framework",
+    title: "JavaScript Framework (ReactJS)",
     description:
-      "Build robust and scalable web applications using the Django web framework, covering models, views, and templates.",
+        "Develop dynamic single-page applications with ReactJS for efficient, component-based front-end solutions.",
   },
   {
-    title: "APIs",
+    title: "MongoDB",
     description:
-      "Learn to design, build, and consume APIs, focusing on RESTful principles and practical implementation.",
+        "Create scalable backend architectures by storing and querying data with MongoDB.",
   },
   {
-    title: "The Full Stack",
+    title: "Debugging with Chrome DevTools",
     description:
-      "Gain a comprehensive understanding of both front-end and back-end development, integrating all parts of a web application.",
+        "Identify and resolve issues in real-time using Google Chrome’s Developer Tools for debugging and performance analysis.",
   },
   {
-    title: "Back-End Developer Capstone",
+    title: "APIs & Internet Fundamentals",
     description:
-      "Apply your back-end development skills in a comprehensive project, showcasing your ability to build complex systems.",
+        "Understand the basics of networking, the internet, and APIs to grasp how data flows and is accessed online.",
   },
   {
-    title: "Coding Interview Preparation",
+    title: "Backend as a Service",
     description:
-      "Prepare for coding interviews with practice questions, problem-solving strategies, and tips for success.",
+        "Authenticate users, store data, and manage file uploads in a web app using MongoDB and Express for a streamlined backend approach.",
+  },
+  {
+    title: "Website Deployment",
+    description:
+        "Learn to host and deploy web applications to the internet, ensuring accessibility and scalability.",
+  },
+  {
+    title: "Collaboration & Teamwork",
+    description:
+        "Work effectively in diverse teams by practicing clear communication, version control, and group problem-solving.",
+  },
+  {
+    title: "Hands-On Project Building",
+    description:
+        "Apply classroom knowledge to real-world scenarios by designing, developing, and deploying a complete project.",
   },
 ];
 
 export const Certifications = (props: Props) => {
   return (
-    <div className="container max-w-5xl">
-      <div className="relative border border-border rounded-lg py-16 px-10">
-        <div className="flex flex-col md:flex-row md:items-center justify-between">
-          <h2 className="text-5xl font-bold whitespace-pre-line">
-            I_Xperience <br /> Software Engineering
-          </h2>
-          <Image
-            src={"/iX_Main_Logo_White.svg"}
-            width={200}
-            height={60}
-            alt="I_Xperience logo"
-          />
+      <div className="container max-w-5xl">
+        <div className="relative border border-border rounded-lg py-16 px-10">
+          <div className="flex flex-col md:flex-row md:items-center justify-between">
+            <h2 className="text-5xl font-bold whitespace-pre-line">
+              I_Xperience <br /> Software Engineering
+            </h2>
+            <Image
+                src={"/iX_Main_Logo_White.svg"}
+                width={200}
+                height={60}
+                alt="I_Xperience logo"
+            />
+          </div>
+          <p className="text-muted-foreground flex items-center gap-2">
+            Issue Date: 7 February, 2025{" "}
+            <Link
+                className="text-blue-900 hover:text-blue-800 underline transition duration-300"
+                href="https://www.beeline.life/organization/ixperience/learn/ix-summer-2024-software-engineering-session-2-byron-e3cf7/certificate/6027/"
+            >
+              Click to verify
+            </Link>
+          </p>
+          <h3 className="mt-10 text-lg font-medium">What I learnt</h3>
+          <ul className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-4">
+            {courses.map((course, index) => (
+                <li key={index}>
+                  <h4 className="text-base font-medium">{course.title}</h4>
+                  <p className="mt-2 text-sm font-light text-muted-foreground">
+                    {course.description}
+                  </p>
+                </li>
+            ))}
+          </ul>
         </div>
-        <p className="text-muted-foreground flex items-center gap-2">
-          Issue Date: 7 February, 2025{" "}
-          <Link
-            className="text-blue-900 hover:text-blue-800 underline transition duration-300"
-            href="https://www.beeline.life/organization/ixperience/learn/ix-summer-2024-software-engineering-session-2-byron-e3cf7/certificate/6027/"
-          >
-            Click to verify
-          </Link>
-        </p>
-        <h3 className="mt-10 text-lg font-medium">What I learnt</h3>
-        <ul className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-4">
-          {courses.map((course, index) => (
-            <li key={index}>
-              <h4 className="text-base font-medium">{course.title}</h4>
-              <p className="mt-2 text-sm font-light text-muted-foreground">
-                {course.description}
-              </p>
-            </li>
-          ))}
-        </ul>
       </div>
-    </div>
   );
 };
