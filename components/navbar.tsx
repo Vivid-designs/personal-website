@@ -34,11 +34,6 @@ const list_item: NavItem[] = [
     href: "#portfolio",
     smooth: true,
   },
-  {
-    title: "Blogs",
-    href: "/blogs",
-    smooth: false,
-  },
 ];
 
 export const Navbar = (props: Props) => {
@@ -68,7 +63,7 @@ export const Navbar = (props: Props) => {
           <Link href="/" className="flex items-center gap-2">
             {/* <Image src="/logo.svg" width={60} height={60} alt="Logo" /> */}
             <span className="font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
-              Spence.co.za
+              Spencesa.co.za
             </span>
           </Link>
         </div>

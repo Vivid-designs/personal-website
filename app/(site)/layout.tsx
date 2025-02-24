@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 
   description:
     "Explore the intersection of technology and imagination as we embark on a journey to transform concepts into powerful, user-centric experiences. Let's build the future together – one line of code at a time.",
-  keywords: ["Lario", "Spence", "LarioSpence", "spence.co.za", "personal", "website"],
+  keywords: ["Lario", "Spence", "LarioSpence", "spencesa.co.za", "personal", "website"],
   twitter: {
     card: "summary_large_image",
   },
   openGraph: {},
-  metadataBase: new URL("https://spence.co.za"),
+  metadataBase: new URL("https://spencesa.co.za"),
 };
 
 export default function RootLayout({

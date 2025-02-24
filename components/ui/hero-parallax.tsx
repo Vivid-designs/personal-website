@@ -25,7 +25,7 @@ export const HeroParallax = ({}: {}) => {
       <div className="flex items-center container max-w-7xl h-full flex-col md:flex-row gap-10">
         <div className="order-2 md:order-1 basis-1/2 h-1/2 md:h-full flex justify-center flex-col">
           <h1 className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
-            Welcome to <br /> Spence.co.za
+            Welcome to <br /> Spencesa.co.za
           </h1>
           <TextGenerateEffect
             className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 whitespace-pre-wrap"

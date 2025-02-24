@@ -6,9 +6,9 @@ type Props = {};
 
 const projects = [
   {
-    title: 'JethroAu.com',
+    title: 'SpenceSA.co.za',
     description:
-      'A personal website built with Next.js 14 and TypeScript, by creating a dynamic platform for blogging and showcasing projects, resulting in a professional online presence and a valuable resource for sharing insights and connecting with the tech community. ',
+      'A personal website built with Next.js 14 and TypeScript, by creating a dynamic platform for showcasing projects, resulting in a professional online presence and a valuable resource for sharing insights and connecting with the tech community. ',
 
     github: 'https://github.com/jethro-dev/personal-website',
     demo: 'https://jethroau.com',
