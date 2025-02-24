@@ -23,7 +23,7 @@ export function AboutMeCard({}) {
           className=""
         >
           <Image
-            src={"/Lario2.JPEG"}
+            src={"/Lario3.JPEG"}
             height="1000"
             width="1000"
             className="h-20 w-20 object-cover aspect-square rounded-full group-hover/card:shadow-xl"

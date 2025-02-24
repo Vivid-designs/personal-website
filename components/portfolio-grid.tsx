@@ -6,29 +6,29 @@ type Props = {};
 
 const projects = [
   {
-    title: 'SpenceSA.co.za',
+    title: 'Spencesa.co.za',
     description:
       'A personal website built with Next.js 14 and TypeScript, by creating a dynamic platform for showcasing projects, resulting in a professional online presence and a valuable resource for sharing insights and connecting with the tech community. ',
 
-    github: 'https://github.com/jethro-dev/personal-website',
-    demo: 'https://jethroau.com',
+    github: 'https://github.com/Vivid-designs',
+    demo: 'https://spencesa.co.za',
     image: '/jethroau-cover.png',
     size: 'col-span-1 md:col-span-2 row-span-1', // Horizontal project spanning two columns
   },
   {
-    title: 'LIVR Studios',
+    title: 'Phoenix Sports Group ',
     description:
-      'Developed a dynamic marketing site by leveraging modern web technologies and frameworks, resulting in a 20% increase in online engagement and lead generation. ',
+      'At Phoenix Sports Group, I merged my passion for technology and athletics to create a responsive MERN-stack platform that cut investor onboarding time by 40%. I also designed and produced over 15 dynamic social media video campaigns, boosting brand engagement and driving digital transformation. ',
 
     github: '',
-    demo: 'https://www.livrstudios.com/',
+    demo: 'https://www.phoenixspoertsgroup.co.za',
     image: '/livr-studios-cover.png',
-    size: 'col-span-1 md:col-span-1 row-span-1', // Standard size project
+    size: 'col-span-1 md:col-span-2 row-span-1', // Standard size project
   },
   {
-    title: 'SceneAI',
+    title: 'Attain Sports Management',
     description:
-      'An AI-powered tool that generates detailed scene descriptions for writers and creators, by utilizing third-party generative services and RESTful APIs, resulting in enhanced inspiration and a streamlined creative process for users. ',
+      'During my time at Attain Sports Management, I revamped their website with a mobile-first design approach, resulting in a 55% increase in mobile traffic. I further enhanced their digital presence by producing impactful promotional videos that lifted client inquiries by 25%. ',
 
     github: 'https://github.com/jethro-dev/ai-environment-generator',
     demo: 'https://sceneai.vercel.app/',
@@ -45,16 +45,6 @@ const projects = [
     demo: '',
     image: '/dvsa-cover.png',
     size: 'col-span-1 md:col-span-2 lg:col-span-1 row-span-1', // Standard size project
-  },
-  {
-    title: 'StudyBud',
-    description:
-      "An innovative platform for finding study partners, by implementing messaging, group study sessions, and user matching algorithms, resulting in a collaborative environment that enhances students' learning experiences and fosters academic connections. ",
-
-    github: 'https://github.com/jethro-dev/studybud',
-    demo: 'https://studybud-jethro.up.railway.app/',
-    image: '/studybud-cover.png',
-    size: 'col-span-1 md:col-span-2 lg:col-span-2 row-span-1', // Horizontal project spanning two columns
   },
   {
     title: 'StemFM',
