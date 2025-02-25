@@ -12,7 +12,7 @@ const projects = [
 
     github: 'https://github.com/Vivid-designs',
     demo: 'https://spencesa.co.za',
-    image: '/jethroau-cover.png',
+    image: '/Spencesa.png',
     size: 'col-span-1 md:col-span-2 row-span-1', // Horizontal project spanning two columns
   },
   {
@@ -21,46 +21,25 @@ const projects = [
       'At Phoenix Sports Group, I merged my passion for technology and athletics to create a responsive MERN-stack platform that cut investor onboarding time by 40%. I also designed and produced over 15 dynamic social media video campaigns, boosting brand engagement and driving digital transformation. ',
 
     github: '',
-    demo: 'https://www.phoenixspoertsgroup.co.za',
-    image: '/livr-studios-cover.png',
+    demo: 'https://www.phoenixsportsgroup.co.za',
+    image: '/PhoenixSportsGroup.png',
     size: 'col-span-1 md:col-span-2 row-span-1', // Standard size project
   },
   {
     title: 'Attain Sports Management',
     description:
-      'During my time at Attain Sports Management, I revamped their website with a mobile-first design approach, resulting in a 55% increase in mobile traffic. I further enhanced their digital presence by producing impactful promotional videos that lifted client inquiries by 25%. ',
-
-    github: 'https://github.com/jethro-dev/ai-environment-generator',
-    demo: 'https://sceneai.vercel.app/',
-    image: '/sceneai-cover.png',
-    size: 'col-span-1 md:col-span-1 md:row-span-2', // Tall project spanning two rows
-  },
-  {
-    title: 'DVSA Driving Test Booking Automation',
-    description:
-      'Automate booking driving tests on the DVSA website, highly efficient solution that navigates the site, fills in details, and searches for available slots.',
-
-    github:
-      'https://github.com/jethro-dev/dvsa-driving-test-booking-automation',
-    demo: '',
-    image: '/dvsa-cover.png',
-    size: 'col-span-1 md:col-span-2 lg:col-span-1 row-span-1', // Standard size project
-  },
-  {
-    title: 'StemFM',
-    description:
-      'StemFM is a cutting-edge music streaming platform that uses AI for automatic stem splitting and intelligent mixing, offering listeners a completely new and immersive way to experience music.',
+      'During my time at Attain Sports Management, I revamped their website with a mobile-first design approach, resulting in a 55% increase in mobile traffic. I further enhanced their digital presence by producing impactful promotional videos that lifted client inquiries by 60%. ',
 
     github: '',
-    demo: 'https://www.stemplayer.com/',
-    image: '/stemfm-cover.png',
-    size: 'col-span-1 md:col-span-2 row-span-1', // Horizontal project spanning two columns
+    demo: 'https://attainsports.co.za',
+    image: '/Attainsports.png',
+    size: 'col-span-1 md:col-span-2 md:row-span-1', // Tall project spanning two rows
   },
   {
-    title: 'Yee Studio',
+    title: 'Vivid Graphics',
     description: 'My creative studio',
-    github: 'https://github.com/jethro-dev/studio-landing-page',
-    demo: 'https://studio-landing-page-six.vercel.app',
+    github: 'https://github.com/Vivid-designs',
+    demo: 'https://vividgraphics.co.za',
     image: '/yeestudio-cover.png',
     size: 'col-span-1 md:col-span-1 lg:col-span-2 lg:row-span-1', // Horizontal project spanning two columns
   },

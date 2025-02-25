@@ -136,6 +136,14 @@ const mograph
     = [
 
   {
+    name: 'Blender',
+    logo: '/blender.png',
+  },
+  {
+    name: 'Spline',
+    logo: '/spline.png',
+  },
+  {
     name: 'AfterEffects',
     logo: '/ae.svg',
   },
@@ -159,10 +167,6 @@ const mograph
   {
     name: 'Dimension',
     logo: '/dn.svg',
-  },
-  {
-    name: 'Blender',
-    logo: '/blender.svg',
   },
 ];
 
