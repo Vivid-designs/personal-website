@@ -123,13 +123,13 @@ const BlogPage = async ({ params }: Props) => {
               <p className="text-md font-medium">{blog.title}</p>
               <div className="mt-2 flex items-center gap-2">
                 <Image
-                  src="/profile.jpeg"
-                  alt="Jethro Au's profile pciture"
+                  src="/Lario3.jpeg"
+                  alt="Lario Spence"
                   width={30}
                   height={30}
                   className="rounded-full"
                 />
-                <p className="text-sm text-muted-foreground">Jethro Au</p>
+                <p className="text-sm text-muted-foreground">Lario Spence</p>
               </div>
             </div>
           ))}

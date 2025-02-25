@@ -12,7 +12,7 @@ const projects = [
 
     github: 'https://github.com/Vivid-designs',
     demo: 'https://spencesa.co.za',
-    image: '/Spencesa.png',
+    image: '/opengraph-image.png',
     size: 'col-span-1 md:col-span-2 row-span-1', // Horizontal project spanning two columns
   },
   {
