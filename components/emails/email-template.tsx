@@ -30,9 +30,9 @@ export const EmailTemplate = ({ name, email, message }: EmailTemplateProps) => (
 );
 
 EmailTemplate.PreviewProps = {
-  name: "Chris Wong",
-  email: "chriswong@gmail.com",
-  message: "Hello there.",
+  name: "Jan Braai",
+  email: "Jan@braai.com",
+  message: "Hello daar!.",
 } as EmailTemplateProps;
 
 export default EmailTemplate;

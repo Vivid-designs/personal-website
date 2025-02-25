@@ -16,21 +16,26 @@ export async function send(values: z.infer<typeof formSchema>) {
     throw new Error("Name and email are required.");
   }
 
-  // Create a transporter object using Outlook's SMTP settings
+  // Create a transporter object using Microsoft Outlook's SMTP settings (Office 365)
   let transporter = nodemailer.createTransport({
-    service: "gmail",
+    host: "smtp.office365.com",
+    port: 587,
+    secure: false, // Use STARTTLS for security
     auth: {
-      user: process.env.GMAIL_USER, // Your Gmail address
-      pass: process.env.GMAIL_PASS, // Your Gmail password
+      user: process.env.OUTLOOK_USER, // Your Outlook email address
+      pass: process.env.OUTLOOK_PASS, // Your Outlook password or app-specific password
     },
+    tls: {
+      ciphers: 'SSLv3'
+    }
   });
 
   // Setup email data with unicode symbols
   let mailOptions = {
-    from: '"Lario Spence" <Lario@spencesa.co.za>', // Sender address
-    to: "lario@spencesa.co.za", // List of receivers
-    cc: "lario@spencesa.co.za", // Carbon Copy
-    replyTo: email, // Sets the Reply-To email address
+    from: '"Spencesa" <Lario@spencesa.co.za>', // Sender address
+    to: "lario@spencesa.co.za", // Recipient address
+    cc: "lario@vividgraphics.co.za", // Carbon Copy (if needed)
+    replyTo: email, // Reply goes to the sender
     subject: "New message from Lario Spence", // Subject line
     text: `Message from ${name}, Email: ${email}, Message: ${message}`, // Plain text body
     html: `<b>Message from ${name}</b><p>Email: ${email}</p><p>Message: ${message}</p>`, // HTML body
@@ -42,5 +47,6 @@ export async function send(values: z.infer<typeof formSchema>) {
     return { success: true, message: "Email sent successfully", info };
   } catch (error) {
     console.error("Error sending email: ", error);
+    throw error; // Optionally, rethrow so the caller knows something went wrong
   }
 }
