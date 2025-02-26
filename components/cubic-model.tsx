@@ -13,7 +13,7 @@ const CubicModel = (props: Props) => {
       transition={{ duration: 0 }}
       className="h-full w-full"
     >
-      <Spline scene="https://prod.spline.design/MwKaqMzQmiet2Z3q/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/2rmUNj0Dzz9P4ZyX/scene.splinecode" />
     </motion.div>
   );
 };

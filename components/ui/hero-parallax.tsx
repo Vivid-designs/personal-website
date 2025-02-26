@@ -11,6 +11,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { TextGenerateEffect } from "./text-generate-effect";
 import CubicModel from "../cubic-model";
+import Waves from '../../hooks/waves'
+
 
 export const HeroParallax = ({}: {}) => {
   const ref = React.useRef(null);
