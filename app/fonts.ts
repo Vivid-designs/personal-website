@@ -10,7 +10,6 @@ export const anton = Anton({
   weight: ["400"],
   display: "swap",
 });
-
 export const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400"],
