@@ -4,7 +4,7 @@ import Spline from "@splinetool/react-spline";
 import { motion } from "framer-motion";
 type Props = {};
 
-const CubicModel = (props: Props) => {
+const SplineModel = (props: Props) => {
   return (
     // <Spline scene="https://prod.spline.design/KI05q4KAUl9zZeuL/scene.splinecode" />
     <motion.div
@@ -18,4 +18,4 @@ const CubicModel = (props: Props) => {
   );
 };
 
-export default CubicModel;
+export default SplineModel;

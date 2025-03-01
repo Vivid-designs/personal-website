@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { TextGenerateEffect } from "./text-generate-effect";
-import CubicModel from "../cubic-model";
+import SplineModel from "../spline-model";
 import Waves from '../../hooks/waves'
 
 
@@ -35,7 +35,7 @@ export const HeroParallax = ({}: {}) => {
           />
         </div>
         <div className="h-1/2 order-1 md:order-2 basis-1/2 w-full md:h-full object-center">
-          <CubicModel />
+          <SplineModel />
         </div>
       </div>
     </div>
