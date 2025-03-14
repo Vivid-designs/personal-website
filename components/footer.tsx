@@ -12,9 +12,6 @@ export const Footer = (props: Props) => {
         </span>
 
         <div className="flex items-center gap-2.5">
-          <Link href={"https://github.com/vivid-designs"} target="_blank">
-            <Github className="w-4 h-4" />
-          </Link>
           <Link href={"https://www.linkedin.com/in/lario-sepnce/"} target="_blank">
             <Linkedin className="w-4 h-4" />
           </Link>
