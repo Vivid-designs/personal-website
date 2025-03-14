@@ -59,18 +59,6 @@ export function AboutMeCard({}) {
               </Link>
             </Button>
           </CardItem>
-          <CardItem translateZ="40">
-            <Button
-              variant={"ghost"}
-              size={"icon"}
-              className="rounded-full w-8 h-8"
-              asChild
-            >
-              <Link href="https://github.com/vivid-designs">
-                <Github className="h-4 w-4 text-muted-foreground" />
-              </Link>
-            </Button>
-          </CardItem>
         </div>
 
         <CardItem
