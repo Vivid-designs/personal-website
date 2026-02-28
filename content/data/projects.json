@@ -1,0 +1,46 @@
+[
+  {
+    "id": "spencesa-site",
+    "createdAt": "2024-01-01",
+    "name": "Spencesa.co.za",
+    "slug": "spencesa-co-za",
+    "image": "/Spencesa.png",
+    "url": "https://spencesa.co.za",
+    "description": "A personal website built with Next.js 14 and TypeScript for showcasing projects and publishing technical insights.",
+    "isPublic": true,
+    "keywords": ["Next.js", "TypeScript", "TailwindCSS"]
+  },
+  {
+    "id": "phoenix-sports-group",
+    "createdAt": "2023-06-01",
+    "name": "Phoenix Sports Group",
+    "slug": "phoenix-sports-group",
+    "image": "/PhoenixSportsGroup.png",
+    "url": "https://www.phoenixsportsgroup.co.za",
+    "description": "A responsive MERN-stack platform with improved investor onboarding and multimedia campaign support.",
+    "isPublic": true,
+    "keywords": ["MERN", "Video", "Marketing"]
+  },
+  {
+    "id": "attain-sports-management",
+    "createdAt": "2023-02-01",
+    "name": "Attain Sports Management",
+    "slug": "attain-sports-management",
+    "image": "/Attainsports.png",
+    "url": "https://attainsports.co.za",
+    "description": "A mobile-first website revamp and promotional media system that improved engagement and inquiries.",
+    "isPublic": true,
+    "keywords": ["Responsive Design", "Media", "UX"]
+  },
+  {
+    "id": "vivid-graphics",
+    "createdAt": "2022-11-01",
+    "name": "Vivid Graphics",
+    "slug": "vivid-graphics",
+    "image": "/yeestudio-cover.png",
+    "url": "https://vividgraphics.co.za",
+    "description": "Creative studio website and digital showcase for brand and portfolio storytelling.",
+    "isPublic": true,
+    "keywords": ["Branding", "Studio", "Design"]
+  }
+]

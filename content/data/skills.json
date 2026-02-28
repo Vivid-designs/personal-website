@@ -1,0 +1,13 @@
+[
+  { "id": "javascript", "createdAt": "2024-01-01", "name": "JavaScript", "category": "Front-End", "logo": "/javascript.svg" },
+  { "id": "typescript", "createdAt": "2024-01-01", "name": "TypeScript", "category": "Front-End", "logo": "/typescript.svg" },
+  { "id": "react", "createdAt": "2024-01-01", "name": "React", "category": "Front-End", "logo": "/images/icons8-react.svg" },
+  { "id": "nextjs", "createdAt": "2024-01-01", "name": "Next.js", "category": "Front-End", "logo": "/nextjs-icon-dark-background.svg" },
+  { "id": "node", "createdAt": "2024-01-01", "name": "Node.js", "category": "Back-End", "logo": "/node-js.png" },
+  { "id": "express", "createdAt": "2024-01-01", "name": "Express.js", "category": "Back-End", "logo": "/icons8-express-js.svg" },
+  { "id": "python", "createdAt": "2024-01-01", "name": "Python", "category": "Back-End", "logo": "/images/icons8-python.svg" },
+  { "id": "postgresql", "createdAt": "2024-01-01", "name": "PostgreSQL", "category": "Databases", "logo": "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" },
+  { "id": "figma", "createdAt": "2024-01-01", "name": "Figma", "category": "Tools", "logo": "/images/icons8-figma.svg" },
+  { "id": "blender", "createdAt": "2024-01-01", "name": "Blender", "category": "Motion", "logo": "/blender.png" },
+  { "id": "spline", "createdAt": "2024-01-01", "name": "Spline", "category": "Motion", "logo": "/spline.png" }
+]
